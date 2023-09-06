@@ -1,6 +1,6 @@
 public class hanoi {
     public static void main(String[] args) {
-        int n=3;
+        int n=5;
         hanoi_tower(n, "S", "H", "D");
     }   
     public static void hanoi_tower(int n, String Source, String helper,String Destination)
