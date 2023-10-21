@@ -8,7 +8,6 @@ class Solution {
             num=num/10;
             num2=num2*10+temp;
         }
-
         if(x==num2)
         {
             return true;
