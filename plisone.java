@@ -10,7 +10,6 @@ class Solution {
         }
         
         if (carry == 1) {
-            // If there's still a carry after the loop, it means we need to add a new digit at the beginning.
             int[] newarr = new int[n + 1];
             newarr[0] = 1;
             for (int i = 0; i < n; i++) {
