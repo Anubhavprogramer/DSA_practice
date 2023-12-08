@@ -1,10 +1,9 @@
 import java.util.Scanner;
 
-class Solution {
+class romantointiger {
     public int romanToInt(String s) {
         // int num[]={1000,900,500,400,100,90,50,40,10,9,5,4,1};
         // String roman[]={"M","CM","D","CD","C","XC","L","XL","X","IX","V","VI","I"};
-
         int total=0;
         for( int i =0; i<s.length();i++)
         {
@@ -27,7 +26,6 @@ class Solution {
             }
         }
         return total;
-
     }
 
     int value(char r)
@@ -64,7 +62,7 @@ class Solution {
     }
 
     public static void main (String args[]){
-        Solution obj =new Solution();
+        romantointiger obj =new romantointiger();
         Scanner SC = new Scanner (System.in);
         System.out.println("Enter the Roman Variable: ");
         String s =SC.next();

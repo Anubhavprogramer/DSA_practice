@@ -1,4 +1,4 @@
-public class Solution {
+public class search {
     public int searchInsert(int[] nums, int target) {
         int left = 0;
         int right = nums.length - 1;
@@ -18,7 +18,4 @@ public class Solution {
         // If the loop terminates, 'left' represents the index where 'target' should be inserted.
         return left;
     }
-}
- search {
-    
 }

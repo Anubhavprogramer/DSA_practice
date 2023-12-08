@@ -1,4 +1,4 @@
-class Solution {
+class plisone {
     public int[] plusOne(int[] digits) {
         int n = digits.length;
         int carry = 1; // Initialize with 1 to add 1 to the last digit.

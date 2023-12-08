@@ -1,4 +1,4 @@
-class Solution {
+class question2 {
     public int[] findIndices(int[] nums, int indexDifference, int valueDifference) {
         int num[]= new int[2];
         num[0]=-1;

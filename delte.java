@@ -1,4 +1,4 @@
-class Solution {
+class delte {
     public int removeElement(int[] nums, int val) {
         int newLength = 0;
 
